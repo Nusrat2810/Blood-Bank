@@ -1,0 +1,231 @@
+
+.vid-container1{
+  position:relative;
+  height:145vh;
+  overflow:hidden;
+}
+.bgvid1.back1 {
+  position: fixed; right: 0; bottom: 0;
+  min-width: 100%; min-height: 100%;
+  width: auto; height: auto; z-index: -100;
+}
+.inner1 {
+  position: absolute;
+}
+.inner-container1{
+  width:600px;
+  height:1070px;
+  position:absolute;
+  top:calc(50vh - 300px);
+  left:calc(50vw - 200px);
+  overflow:hidden;
+}
+
+.bgvid1.inner1{
+  top:calc(-50vh + 200px);
+  left:calc(-50vw + 200px);
+  filter: url("data:image/svg+xml;utf9,<svg%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'><filter%20id='blur'><feGaussianBlur%20stdDeviation='10'%20/></filter></svg>#blur");
+  -webkit-filter:blur(10px);
+  -ms-filter: blur(10px);
+  -o-filter: blur(10px);
+  filter:blur(10px);
+}
+.box1{
+  position:absolute;
+  height:100%;
+  width:100%;
+  font-family:Helvetica;
+  color:#fff;
+  background:rgba(0,0,0,0.13);
+  padding:30px 0px;
+}
+.box1 h1{
+  text-align:center;
+  margin:30px 0;
+  font-size:30px;
+}
+.box1 input{
+  display:block;
+  width:300px;
+  margin:10px auto;
+  padding:10px;
+  background:rgba(0,0,0,0.2);
+  color:black;
+  border:0;
+}
+.box1 select{
+  display:block;
+  width:300px;
+  margin:10px auto;
+  padding:10px;
+  background:rgba(0,0,0,0.2);
+  color:#2F4F4F;
+  border:0;
+}
+.box1 input:focus,.box1 input:active,.box1 button:focus,.box1 button:active{
+  outline:none;
+}
+.box1 button{
+  background:#742ECC;
+  border:0;
+  color:#fff;
+  padding:10px;
+  font-size:20px;
+  width:330px;
+  margin:20px auto;
+  display:block;
+  cursor:pointer;
+}
+.box1 button:active{
+  background:#27ae60;
+}
+.box1 p{
+  font-size:14px;
+  text-align:center;
+}
+.box1 p span{
+  cursor:pointer;
+  color:#666;
+}
+/*.box1 fieldset { 
+	border:1px solid #333333;
+	width: 570px;
+	padding: 10px;
+
+	 }*/
+
+
+.box1 fieldset {
+  margin: 20px;
+  padding: 0 10px 10px;
+  border: 1px solid #666;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #666;
+  padding-top: 10px;
+}
+.box1 legend {
+  padding: 2px 4px;
+  background: #fff;
+  /* For better legibility against the box-shadow */
+}
+.box1 fieldset > legend {
+  float: left;
+  margin-top: -20px;
+}
+.box1 fieldset > legend + * {
+  clear: both;
+}
+
+
+
+.head{
+  background-color: white;
+  color: DarkOrange;
+  height: 50px;
+  width: 580px;
+  font-size: 25px;
+   font-family:Helvetica;
+  
+
+}
+.bb input{
+   font-family:Helvetica;
+}
+.cont{
+  font-family:Helvetica;
+  position:relative;
+  height:145vh;
+  overflow:hidden;
+  background-color: white;
+  width: 580px;
+  height: 850px;
+  top:calc(-50vh + 350px);
+  left:calc(-50vw + 1100px);
+
+}
+
+
+
+
+
+.form fieldset {
+  margin: 20px;
+  padding: 0 10px 10px;
+  border: 1px solid #666;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #666;
+  padding-top: 10px;
+}
+.form legend {
+
+  padding: 2px 4px;
+  background: #fff;
+  /* For better legibility against the box-shadow */
+}
+.form fieldset > legend {
+  float: left;
+  margin-top: -20px;
+}
+.form fieldset > legend + * {
+  clear: both;
+}
+.form{
+  font-family:Helvetica;
+  position:absolute;
+  height:100%;
+  width:100%;
+  font-family:Helvetica;
+  color:#fff;
+  background:rgba(0,0,0,0.13);
+  padding:30px 0px;
+}
+.form h1{
+  text-align:center;
+  margin:30px 0;
+  font-size:30px;
+}
+.form input{
+  font-family:Helvetica;
+  display:block;
+  width:280px;
+  margin:10px auto;
+  padding:10px;
+  background:rgba(0,0,0,0.2);
+  color:black;
+  border:0;
+}
+.form select{
+  display:block;
+  width:300px;
+  margin:10px auto;
+  padding:10px;
+  background:rgba(0,0,0,0.2);
+  color:#2F4F4F;
+  border:0;
+}
+.form input:focus,.form input:active,.form button:focus,.form button:active{
+  outline:none;
+}
+.form button{
+  background:#742ECC;
+  border:0;
+  color:#fff;
+  padding:10px;
+  font-size:20px;
+  width:330px;
+  margin:20px auto;
+  display:block;
+  cursor:pointer;
+   font-family:Helvetica;
+}
+.form button:active{
+  background:#27ae60;
+}
+.form p{
+  font-size:14px;
+  text-align:center;
+}
+.form p span{
+  cursor:pointer;
+  color:#666;
+}
